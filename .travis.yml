@@ -7,7 +7,9 @@ deploy:
   provider: releases
   api_key:
     secure: fl+VYGmRHuBLdwHb1OxxzwIKFego5vokkAQhHelvvfuoVl1cfqjfY1Kgt0Fkp1s+AKGNrN/8RYuXETUhJtzfCD2YixgQJ609szAp0wEkiY8J6F6tl6e0EGMlpiS2OUf6z421cB6iGzz7TkO9B2XvNtUqBchd7kKgHCNX9dftsRH89D/BSLhqvxi9LLqcHQ6KQGNJUHtv+WRvKSLOI9P6Um3AhiEQrCSattlxEK8Ye5GXP8LN//FRvG8wIp9sqhga3trIiRaP91/4DtJ/7M84dlJT8i/b8lMFerzGPmsUPsAd3wM42exscZb1uBeW6dp3PBx0NvTD9AATrrBh4uB+EiBbmYkxXcDtrB9I6XBVxszQ1zYOG3XXCM0DO6M55qkLKOdfspU3uWKfOkAOX5sNWa/a3eqryvBEBmYYz8eyqOG9hbl2GEc12Qpupe03z5IBYX9mew/56O5j0TpK32AKOzMLmkFq6obdrKRosyOeoyRbAr3+BJtLTMg8O7SYs9fUO3DhuPsk9SOnrOuoBiItXMOuxo+HAdQsbOvSD6B/rXdz4fkyKudkR8l055yjOTQBrRPfjN0RRDHjThfHT58Zdg+cISnHHbwQYiDcIL6AyQYL/jvD9nPO8YfUer4y6rF6yXKoiq59o0hDhzMBYBzma1flQiOzwMlOoB9mTeUDr7w=
-  file: ./bin/FuscoBot
+  file:
+  - ./bin/FuscoBot_x86
+  - ./bin/FuscoBot_ARM
   skip_cleanup: true
   on:
     repo: AFusco/FuscoBot
