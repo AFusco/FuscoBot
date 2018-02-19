@@ -1,0 +1,6 @@
+{
+    "BotToken": "YourBotTokenHere",
+    "AllowedUserIDs": [
+        "yourtelegramidhere"
+    ]
+}
